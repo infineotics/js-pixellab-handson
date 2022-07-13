@@ -6,7 +6,7 @@ form.addEventListener('submit', function (event) {
   var radius = inputRadius.value || 0;
   var result = 0;
 
-  result = (4 / 3) * Math.pow(7, 3) * Math.PI;
+  result = (4 / 3) * Math.PI * Math.pow(7, 3);
 
   elementResult.innerText = result;
 
